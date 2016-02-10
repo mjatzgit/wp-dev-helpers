@@ -1,4 +1,13 @@
 <?php 
+/*
+Plugin Name: wp-helpers
+Plugin URI: 
+Version: Current Version
+Author: Martin Jespersen
+Description: What does your plugin do and what features does it offer...
+*/
+?>
+<?php
 class DribbbleAPI {
     // url to Dribbble api
     protected $apiUrl = 'http://api.dribbble.com/';
@@ -25,5 +34,5 @@ class DribbbleAPI {
     }
 }
 
- 
+
 ?>
