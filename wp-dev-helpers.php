@@ -1,8 +1,8 @@
 <?php 
 /*
 Plugin Name: wp-dev-helpers
-Plugin URI: 
-Version: 0.4.1
+Plugin URI: https://github.com/mjatzgit/wp-dev-helpers
+Version: 0.4.2
 GitHub Plugin URI: https://github.com/mjatzgit/wp-dev-helpers
 GitHub Branch: master
 Author: Martin Jespersen
