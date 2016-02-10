@@ -1,6 +1,6 @@
 <?php 
 /*
-Plugin Name: wp-dev-helpers
+Plugin Name: mj-dev-helpers
 Plugin URI: 
 Version: 0.1
 Author: Martin Jespersen
