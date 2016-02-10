@@ -2,7 +2,7 @@
 /*
 Plugin Name: wp-dev-helpers
 Plugin URI: 
-Version: 0.3
+Version: 0.4
 GitHub Plugin URI: https://github.com/mjatzgit/wp-dev-helpers
 Author: Martin Jespersen
 Description: What does your plugin do and what features does it offer...
