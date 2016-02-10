@@ -16,6 +16,10 @@ class WPDevHelpers {
     {
         
     }
+
+    public function wp_dev_is_blog_public(){
+        return get_site_option( 'blog_public', $default , false );
+    }
 }
 
 function write_log ( $log )  {
