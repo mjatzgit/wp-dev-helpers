@@ -3,6 +3,7 @@
 Plugin Name: wp-dev-helpers
 Plugin URI: 
 Version: 0.2
+GitHub Plugin URI: https://github.com/mjatzgit/wp-dev-helpers
 Author: Martin Jespersen
 Description: What does your plugin do and what features does it offer...
 */
@@ -39,7 +40,6 @@ class WPDevHelpers {
 
 
     // Write to the Wordpress debug.log
-    if ( ! function_exists('write_log')) {
        public function write_log ( $log )  {
           if ( is_array( $log ) || is_object( $log ) ) {
              error_log( print_r( $log, true ) );
@@ -47,7 +47,6 @@ class WPDevHelpers {
              error_log( $log );
           }
        }
-    }
 
     // display PHP vars in console ( doesnt work with ajax calls ) 
     public function print_js( $var ){ 
@@ -64,9 +63,6 @@ class WPDevHelpers {
       print_r( $var );
       echo '</pre>';
     }
-
-   
-    ?>
 }
 
 
