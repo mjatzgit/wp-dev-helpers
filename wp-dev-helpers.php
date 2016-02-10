@@ -2,7 +2,7 @@
 /*
 Plugin Name: wp-dev-helpers
 Plugin URI: 
-Version: 0.1
+Version: 0.2
 Author: Martin Jespersen
 Description: What does your plugin do and what features does it offer...
 */
