@@ -32,11 +32,10 @@ function write_log ( $log )  {
 
 // display PHP vars in console ( doesnt work with ajax calls ) 
 function print_js( $var ){ 
-	$var = json_encode($var ); ?>
-	<script type="text/javascript">
-		console.dir( <?php echo $var ?> ); 
-	</script>
-	<?php 
+	$var = json_encode($var ); 
+	echo =  '<script type="text/javascript">'.
+		'console.dir( <?php echo $var ?> );</script>';
+
 }
 
     // display print_r with <pre> tags 
